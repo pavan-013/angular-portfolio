@@ -82,7 +82,7 @@ body.dark-theme .cv {
     left: 500px;
 }
 .image{
-    background-image: url("/portfolio/src/assets/images/removebg.png");
+    background-image: url("/assets/images/removebg.png");
     background-size: cover;
     background-color: #b1aeb4e6;
     border-radius: 25px;
@@ -239,7 +239,7 @@ body.dark-theme .cv {
   /* Animated title center */
   .title{
     position:absolute;
-    bottom: 80px;
+    top:80%;
     left: 35px;
     margin-top: 25px;
     text-align: center;
@@ -249,7 +249,7 @@ body.dark-theme .cv {
   /* Arrow button */
   .arbtn{
     position: absolute;
-    bottom: 30px;
+    top:95%;
     left: 50%;
     transform: translateX(-50%);
   }
@@ -258,4 +258,21 @@ body.dark-theme .cv {
     padding: 12px;
   }
 
+}
+@media (max-width: 677px) {
+    /* Animated title center */
+  .title{
+    position:absolute;
+    top:85%;
+    left: 35px;
+    margin-top: 25px;
+    text-align: center;
+    font-size: 16px;
+  }
+    .arbtn{
+    position: absolute;
+    top: 98%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
 }

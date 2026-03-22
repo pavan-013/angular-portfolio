@@ -84,7 +84,7 @@
   padding: 20px 5px 0px 15px;
   border-image: 15%;
 }
-.image {
+.imagee {
   width: 100%;
   height: auto;
   border-radius: 20px;
@@ -150,14 +150,16 @@
   }
 
   .carousel{
-    width: 100%;
+    width: 90%;
   }
 
   .slide{
-    padding: 10px 5px 0;
+    padding: 10px 1px 0;
   }
 
-  .image{
+  .imagee{
+    width: 340px;
+    height: 180px;
     border-radius: 15px;
   }
 
@@ -165,4 +167,17 @@
     padding: 8px;
   }
 
+}
+@media (max-width: 677px) {
+   .carousel{
+    width: 90%;
+  }
+  .slide{
+    padding: 10px 0px 0px;
+  }
+  .imagee{
+    width: 300px;
+    height: 150px;
+    border-radius: 15px;
+  }
 }

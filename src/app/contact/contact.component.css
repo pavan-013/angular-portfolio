@@ -110,6 +110,7 @@
   }
   /* Form container */
   .contact-form{
+    height:920px;
     max-width: 85%;
     padding: 5px 10px;
     margin: 20px auto;
@@ -131,5 +132,7 @@
     width: 100%;
     margin-top: 10px;
   }
-
+  .ds{
+    padding: 0px;
+  }
 }

@@ -211,7 +211,12 @@ body.dark-theme .bg2{
     transition:all 0.8s ease-in-out;
     /* -webkit-transition: all 0.3s ease-in-out; */
 }
-
+@media (max-width: 932px) {
+    .about{
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+}
 @media (max-width: 844px) {
 
   .about{
@@ -275,4 +280,10 @@ body.dark-theme .bg2{
     transform: translate(-50%, -50%);
   }
 
+}
+@media (max-width: 677px) {
+    .about{
+    padding-top: 70px;
+    padding-bottom: 10px;
+}
 }

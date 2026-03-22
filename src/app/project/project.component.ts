@@ -11,11 +11,11 @@ import { SlickCarouselModule } from 'ngx-slick-carousel';
 export class ProjectComponent {
   showModal = false;
   slides = [
-    { img: 'images/R2.jpg' },
-    { img: 'images/R3.jpg' },
-    { img: 'images/R4.jpg' },
-    { img: 'images/R6.jpg' },
-    { img: 'images/R6.jpg' }
+    { img: 'assets/images/R2.jpg' },
+    { img: 'assets/images/R3.jpg' },
+    { img: 'assets/images/R4.jpg' },
+    { img: 'assets/images/R6.jpg' },
+    { img: 'assets/images/R6.jpg' }
   ];
 
   slideConfig = {
